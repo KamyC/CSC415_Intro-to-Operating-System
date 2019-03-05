@@ -1,0 +1,11 @@
+total 228
+-rw-r--r-- 1 jinghan jinghan      0 Oct 24 18:06 1
+-rw-r--r-- 1 jinghan jinghan 178699 Oct 14 16:12 415_HW3.pdf
+drwxr-xr-x 2 jinghan jinghan   4096 Oct 20 22:58 aass
+-rw-r--r-- 1 jinghan jinghan    157 Oct 14 16:12 CMakeLists.txt
+-rw-r--r-- 1 jinghan jinghan   1074 Oct  8 18:48 LICENSE
+-rw-r--r-- 1 jinghan jinghan     82 Oct 14 16:12 Makefile
+-rwxr-xr-x 1 jinghan jinghan  17784 Oct 24 18:05 myshell
+-rw-r--r-- 1 jinghan jinghan   7884 Oct 24 15:43 myshell.c
+-rw-r--r-- 1 jinghan jinghan   3819 Oct 20 20:16 README.md
+drwxr-xr-x 3 jinghan jinghan   4096 Oct 20 22:56 trial

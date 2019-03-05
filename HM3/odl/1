@@ -1,0 +1,8 @@
+total 44
+drwxr-xr-x 3 jinghan jinghan  4096 Oct 22 22:00 .
+drwxr-xr-x 4 jinghan jinghan  4096 Oct 20 13:00 ..
+-rw-r--r-- 1 jinghan jinghan     0 Oct 22 22:00 1
+-rw-r--r-- 1 jinghan jinghan    82 Oct 14 16:12 Makefile
+-rwxr-xr-x 1 jinghan jinghan 13600 Oct 20 13:01 myshell
+-rw-r--r-- 1 jinghan jinghan  8543 Oct 20 00:13 myshell.c
+drwxr-xr-x 2 jinghan jinghan  4096 Oct 20 17:04 trial

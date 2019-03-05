@@ -1,0 +1,105 @@
+//function to print current time:
+void print_current_time(){
+  //this function gets the current time
+  //and then print it
+}
+
+//function to print input parameter
+void print_parameter(input parameters...){
+  //this function print all the relevant parameters
+}
+
+//function to dequeque item from buffer
+int dequeue_item(){
+  IF front==-1
+    //there is no item in queue
+  IF front==rear
+    //the front meets the rear and reset front and rear
+  ELSE IF front==bufferSize-1
+    //the front arrives the end of queue
+  ELSE
+    //front keep moving by adding 1
+  Return the item that is consumed
+}
+
+//function to enqueue item to the buffer
+int enqueue_item(int item){
+  IF the front meets the end
+    return 0;
+  ELSE IF front is at initial position
+    add into the buffer
+  ELSE IF rear is at the end and front is not at 0
+    rear moves to 0 and add item
+  ELSE
+    add item
+}
+
+//function for producer
+void *produce_item(void *arg){
+  for(int i=0;i!=xNumber;i++){
+    //semaphore and mutex lock to make sure the enqueue item
+    //add the item to the buffer using enqueue_item
+    //add item to array checkP
+    //unlock and semaphore sends full single
+    //sleep
+  }
+}	
+
+//function for consumer
+void *consume_item(void *arg){
+  IF the thread is the one assigned to consume more extra items
+    iteration=forEachConsumer
+  for(int j=0;j!=iteration;j++){
+    //semaphore and mutex lock to make sure the dequeue item
+    //dequeue the item and return the value to temp
+    //add temp to array checkC
+    //unlock and semaphore sends full single
+    //sleep
+  }
+}   
+
+//function to print the items in checkP and checkC
+void print(){
+  for(int i=0;i!=productions;i++){
+    print each item in both arrays
+  }
+}
+
+//function to check if the items in checkP and checkC match
+int validCheck(){
+  //loop the total numbers
+  //then if any of the item is not matched, return 0
+  //else return 1
+}
+
+// main function
+int main(int argc, char** argv){
+  //read in all the parameters and store them into the global value
+  //judge if there are any extra items
+  //show the current time
+  //check if there are 6 input parameters
+  //memory allocation for buffer, checkP and checkC and check if allocation succeeds
+  //initialize the mutex clock and semaphore
+  //initialize producers and consumers using struct
+  //assign the last consumer thread to consume the extra items
+  //set clock for runtime
+  //using for loop to create producer and consumer threads
+  //using for loop to join producer and consumer threads
+  //print current time
+  //using validCheck() to check if they dequeue and enqueue matches
+  //print the runtime 
+  //free the memory and destry the semaphore
+  return 0;
+}
+  
+
+
+
+
+
+
+
+
+
+
+
