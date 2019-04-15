@@ -1,1 +1,1 @@
-# CSC415_Intro-to-Operating-System
+# Intro-to-OS
